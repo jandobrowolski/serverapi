@@ -22,7 +22,6 @@ public class Task {
     private Long id;
 
     private Long driverId;
-
     private Long creatorId;
     private Date creationDate;
     private String description;
