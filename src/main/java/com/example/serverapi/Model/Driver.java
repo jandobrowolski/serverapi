@@ -55,6 +55,7 @@ public class Driver extends User {
     public DriverDTO makeDriverDTO(){
         DriverDTO driverDTO = new DriverDTO();
         driverDTO.setEmail(this.getEmail());
+        driverDTO.setMale(this.getMale());
         driverDTO.setId(this.getId());
         driverDTO.setUsername(super.username);
         driverDTO.setPesel(pesel);
